@@ -1,0 +1,50 @@
+.navHolder {
+    background: #1A1B2F;
+    margin-left: 1vh;
+    border-radius: 1vh;
+    padding: 3vh;
+    overflow: hidden;
+    transition: height 0.5s ease-in-out;
+}
+
+.menu {
+    display: flex;
+    cursor: pointer;
+    color: white;
+    padding: 1vh;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: background 0.3s ease;
+}
+
+.menu:hover {
+    background: #34374D;
+    border-radius: 1vh;
+    transform: translate(5%);
+    text-decoration: none;
+}
+
+.menu .icons {
+    margin-right: 1.5vh;
+}
+
+.hiddenStyle {
+    height: 8vh;
+    opacity: 0.8;
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+    transform: translateX(-100%); 
+    pointer-events: none;
+}
+  
+  .visibleStyle {
+    opacity: 1;
+    transition: opacity 0.5s ease-in, transform 0.5s ease-in;
+    transform: translateX(0);
+  }
+  
+.links a {
+    color: white;
+    text-decoration: none;
+}
+
