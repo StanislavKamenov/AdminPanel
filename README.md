@@ -13,7 +13,8 @@ The Admin Panel is a customizable and scalable dashboard solution for managing v
 - Responsive Design
 
 ## Tech Stack
-- **Frontend:** React.js (in progress)
+- **Frontend:** React/TypeScript
+- **Librarys:** Mantine, React-Icons
 - **Backend:** #
 - **Database:** #
 - **Deployment:** #
